@@ -12,3 +12,4 @@ Online-Appointment-System
 資料庫名稱：appointment <br>
 表單名稱：information <br>
 欄位：id(主鍵)、names、people、email、content、dates、intime <br>
+![image](https://github.com/howard396501/Online-Appointment-System/blob/master/database.jpg) <br>
