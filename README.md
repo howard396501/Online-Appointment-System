@@ -14,7 +14,6 @@ Online-Appointment-System
 3.  取出appointment專案資料夾(其餘不要) <br>
 4.  更改<code>database_email.php</code>內容 <br>
 5.  <pre><code>
-        
         25. $mail->Username = 'Your Email' ;  // 填寫上你的Email Address             
         26. $mail->Password = 'Your Email Password' ;  // 填寫上你的Email Password
         30. $mail->setFrom('System Email', 'System') ; // 填寫上你的系統Email(自己的Email也可以)
