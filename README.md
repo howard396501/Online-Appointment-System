@@ -9,7 +9,9 @@ Online-Appointment-System
 
 安裝
 ---
-1.  <code>git clone https://github.com/howard396501/Online-Appointment-System.git</code>
+1.  <code>git clone https://github.com/howard396501/Online-Appointment-System.git</code> <br>
+2.  取出appointment專案資料夾(其餘不要) <br>
+3.  更改<code>database_email.php</code>內容
 
 資料庫表單及欄位
 ---
