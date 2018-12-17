@@ -7,6 +7,10 @@ Online-Appointment-System
 使用框架：無 <br>
 使用套件：PHP Mailer (https://github.com/PHPMailer/PHPMailer) <br>
 
+安裝
+---
+1.  
+
 資料庫表單及欄位
 ---
 資料庫名稱：appointment <br>
