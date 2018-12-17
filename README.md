@@ -11,7 +11,14 @@ Online-Appointment-System
 ---
 1.  <code>git clone https://github.com/howard396501/Online-Appointment-System.git</code> <br>
 2.  取出appointment專案資料夾(其餘不要) <br>
-3.  更改<code>database_email.php</code>內容
+3.  更改<code>database_email.php</code>內容 <br>
+4.  <code>      
+        25. $mail->Username = 'Your Email' ;                 
+        26. $mail->Password = 'Your Email Password' ; 
+  
+        30. $mail->setFrom('System Email', 'System') ;
+        32. $mail->addAddress('Your Email') ;
+    </code>
 
 資料庫表單及欄位
 ---
