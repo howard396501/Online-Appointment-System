@@ -9,16 +9,20 @@ Online-Appointment-System
 
 安裝
 ---
-1.  <code>git clone https://github.com/howard396501/Online-Appointment-System.git</code> <br>
-2.  取出appointment專案資料夾(其餘不要) <br>
-3.  更改<code>database_email.php</code>內容 <br>
-4.  <code>      
-        25. $mail->Username = 'Your Email' ;                 
-        26. $mail->Password = 'Your Email Password' ; 
-  
-        30. $mail->setFrom('System Email', 'System') ;
-        32. $mail->addAddress('Your Email') ;
-    </code>
+1.  安裝XAMPP(https://www.apachefriends.org/zh_tw/index.html)
+2.  <code>git clone https://github.com/howard396501/Online-Appointment-System.git</code> <br>
+3.  取出appointment專案資料夾(其餘不要) <br>
+4.  更改<code>database_email.php</code>內容 <br>
+5.  <code>      
+
+        25. $mail->Username = 'Your Email' ;  // 填寫上你的Email Address               
+        26. $mail->Password = 'Your Email Password' ;  // 填寫上你的Email Password
+        
+        30. $mail->setFrom('System Email', 'System') ; // 填寫上你的系統Email(自己的Email也可以)
+        32. $mail->addAddress('Your Email') ; //填寫上你的Email(被預約人之Email)
+    </code><br>
+6.  設計資料庫(詳閱下面〝資料庫表單及欄位〞) <br>
+7.  開啟XAMPP中的Apache Server和MySQL <br>
 
 資料庫表單及欄位
 ---
