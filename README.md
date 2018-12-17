@@ -2,7 +2,7 @@ Online-Appointment-System
 ===
 開發環境
 ---
-使用平台：Windows 10(企業版，x64)
+使用平台：Windows 10(企業版，x64) <br>
 使用語言：PHP
 使用框架：無
 使用套件：PHP Mailer (https://github.com/PHPMailer/PHPMailer)
