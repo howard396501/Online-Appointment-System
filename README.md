@@ -17,8 +17,10 @@ Online-Appointment-System
         26. $mail->Password = 'Your Email Password' ;  // 填寫上你的Email Password
         30. $mail->setFrom('System Email', 'System') ; // 填寫上你的系統Email(自己的Email也可以)
         32. $mail->addAddress('Your Email') ; //填寫上你的Email(被預約人之Email) 
-6.  設計資料庫(詳閱下面〝資料庫表單及欄位〞) <br>
-7.  開啟XAMPP中的Apache Server和MySQL <br>
+6.  更改<code>index.php</code>內容<br>
+7.      66. <iframe src="你的google行事曆">
+8.  設計資料庫(詳閱下面〝資料庫表單及欄位〞) <br>
+9.  開啟XAMPP中的Apache Server和MySQL <br>
 
 資料庫表單及欄位
 ---
