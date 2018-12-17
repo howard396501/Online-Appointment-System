@@ -9,7 +9,7 @@ Online-Appointment-System
 
 安裝
 ---
-> 1.  git clone https://github.com/howard396501/Online-Appointment-System.git
+1.  <code>git clone https://github.com/howard396501/Online-Appointment-System.git</code>
 
 資料庫表單及欄位
 ---
